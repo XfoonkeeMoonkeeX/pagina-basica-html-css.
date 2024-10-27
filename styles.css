@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5; /* Fondo claro */
+}
+
+header {
+    background-color: #333333; /* Encabezado gris oscuro */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 60px; /* Espacio para el pie de página */
+}
+
+footer {
+    background-color: #333333; /* Pie de página gris oscuro */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0; /* Fija el pie de página en la parte inferior */
+}
+
+a, .button {
+    color: #6495ED; /* Azul suave para enlaces */
+    text-decoration: none;
+}
+
+a:hover, .button:hover {
+    color: #66CDAA; /* Verde claro en hover para destacar */
+}
