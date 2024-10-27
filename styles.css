@@ -1,13 +1,14 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Georgia', serif; 
     margin: 0;
     padding: 0;
-    background-color: #F5F5F5; /* Fondo claro */
+    background-color: #2C2C2C; 
+    color: #FFFFFF; 
 }
 
 header {
-    background-color: #333333; /* Encabezado gris oscuro */
-    color: white;
+    background-color: #4B0082; 
+    color: #FFD700; 
     text-align: center;
     padding: 1em 0;
 }
@@ -15,24 +16,52 @@ header {
 main {
     padding: 20px;
     text-align: center;
-    margin-bottom: 60px; /* Espacio para el pie de página */
+    margin-bottom: 60px; 
 }
 
 footer {
-    background-color: #333333; /* Pie de página gris oscuro */
-    color: white;
+    background-color: #4B0082;
+    color: #FFD700; 
     text-align: center;
     padding: 1em 0;
     position: fixed;
     width: 100%;
-    bottom: 0; /* Fija el pie de página en la parte inferior */
+    bottom: 0; 
 }
 
 a, .button {
-    color: #6495ED; /* Azul suave para enlaces */
+    color: #66CDAA; 
     text-decoration: none;
 }
 
 a:hover, .button:hover {
-    color: #66CDAA; /* Verde claro en hover para destacar */
+    color: #FFD700; 
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #66CDAA; 
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #FFD700;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+    header, footer {
+        padding: 0.5em 0;
+    }
 }
