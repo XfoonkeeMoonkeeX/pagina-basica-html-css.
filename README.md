@@ -42,5 +42,4 @@ Licencia
 Este proyecto está bajo la Licencia MIT. Para más detalles, revisa el archivo LICENSE.
 
 Desarrollado por: XfoonkeeMoonkeeX
-Última actualización: [25 Noviembre,2024]
-
+Última actualización: [25 de Noviembre, 2024]
